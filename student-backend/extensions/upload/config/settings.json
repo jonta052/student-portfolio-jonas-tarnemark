@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "jonta",
+    "api_key": "834819134397689",
+    "api_secret": "eOGmIHC7RBmILjag_o22xhAlZNM"
+  }
+}
