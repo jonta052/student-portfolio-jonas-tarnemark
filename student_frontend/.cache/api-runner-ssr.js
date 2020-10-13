@@ -5,6 +5,9 @@ var plugins = [{
       plugin: require('C:/HTML/student-portfolio-jonas-tarnemark/student_frontend/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('C:/HTML/student-portfolio-jonas-tarnemark/student_frontend/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"GatsbyJS","short_name":"GatsbyJS","start_url":"/","background_color":"#6b37bf","theme_color":"#6b37bf","display":"standalone","icon":"src/images/icon.png","crossOrigin":"use-credentials","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"c0faa12ca5ef8d60182dac3e9e38b15e"},
+    },{
       plugin: require('C:/HTML/student-portfolio-jonas-tarnemark/student_frontend/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":[{"family":"Roboto","variants":["400","700"]},{"family":"Open Sans"}]},
     }]

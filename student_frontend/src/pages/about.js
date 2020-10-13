@@ -32,7 +32,7 @@ const About = ({
             </div>
 
             <div className="btn cv">
-              <a href={downloadFile} download>Ladda ner fullständig CV</a>{` `}
+              <a href={downloadFile} download>Ladda ner fullständigt CV</a>{` `}
             </div>
             <Link to='/contact' className="btn">
               kontakta mig
