@@ -41,8 +41,7 @@ const Hero = () => {
             - 🤔 I’m looking for help with anything frontend :)
             <br />
             - 💬 Fråga mig vad som helst om Biljard
-            <br />
-            - 😄 Pronouns: Inquisitive, break the mold.. <br />- 💜{" "}
+            <br />- 💜{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -74,8 +73,6 @@ const Hero = () => {
             >
               Styled Components
             </a>
-            <br />
-            - ⚡ Fun fact: I used to fly planes
             <br />
             - 📫 Använd länken nedan för att kontakta mig
             <br />

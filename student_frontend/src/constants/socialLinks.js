@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "https://www.twitter.com",
+    url: "https://facebook.com/jonas.tarnemark",
   },
   {
     id: 2,
