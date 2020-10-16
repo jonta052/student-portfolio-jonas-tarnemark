@@ -4,27 +4,27 @@ import styled from "styled-components"
 const data = [
   {
     id: 1,
-    text: "home",
+    text: "HEM",
     url: "/",
   },
   {
     id: 2,
-    text: "about",
+    text: "Mitt CV",
     url: "/about/",
   },
   {
     id: 3,
-    text: "projects",
+    text: "Arbetsprov",
     url: "/projects/",
   },
   {
     id: 4,
-    text: "blog",
+    text: "Blog",
     url: "/blog/",
   },
   {
     id: 5,
-    text: "contact",
+    text: "Kontakt",
     url: "/contact/",
   },
 ]
@@ -62,7 +62,6 @@ const tempLinks = data.map(link => {
     </li>
   )
 })
-// I KNOW WE CAN COMBINE IT !!!!!
 
 export default () => {
   return (

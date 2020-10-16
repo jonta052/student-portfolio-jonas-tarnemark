@@ -31,16 +31,16 @@ const Hero = () => {
       <div className="section-center hero-center">
         <article className="hero-info">
           <div>
-            <h1>I'm Jonas</h1>
+            <h1>Hej, jag är Jonas</h1>
             <div className="underline"></div>
-            <h4>Currently studying System development at TUC,<br></br>Linköping</h4>
-            - 🔭 I’m currently working on my own Portfolio site
+            <h4>Just nu läser jag Systemutveckling vid TUC,<br></br>Linköping</h4>
+            - 🔭 Just nu jobbar jag på min Portfolio sida
             <br />
-            - 🌱 I’m currently learning React, Gatsby, GraphQL and Strapi
+            - 🌱 Just nu lär jag mig, Gatsby, GraphQL och Strapi
             <br />
             - 🤔 I’m looking for help with anything frontend :)
             <br />
-            - 💬 Ask me anything related to playing pool
+            - 💬 Fråga mig vad som helst om Biljard
             <br />
             - 😄 Pronouns: Inquisitive, break the mold.. <br />- 💜{" "}
             <a

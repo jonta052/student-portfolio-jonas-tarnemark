@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const NavWrapper = styled.nav`
-list-style-type: none;
     position: absolute;
     top: 50px;
     left: 0;
