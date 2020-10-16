@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
 const data = [
   {
     id: 1,
@@ -28,6 +29,32 @@ const data = [
   },
 ]
 
+const NavLinks = styled(Link)`
+display: none;
+padding-right: 20px;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: flex-end;
+        NavLinks li {
+          list-style-type: none;
+          color:#E44C2C;
+          margin-right: 2rem;
+          }
+          NavLinks a {
+            text-transform: capitalize;
+            color: var(--clr-grey-1);
+            font-weight: bold;
+            letter-spacing: var(--spacing);
+            transition: var(--transition);
+            padding: 0.5rem 0;
+          }
+          a:hover {
+            color: var(--clr-primary-5);
+            box-shadow: 0px 2px var(--clr-primary-5);
+          }
+    }
+`
+
 const tempLinks = data.map(link => {
   return (
     <li key={link.id}>
@@ -37,10 +64,12 @@ const tempLinks = data.map(link => {
 })
 // I KNOW WE CAN COMBINE IT !!!!!
 
-export default ({ styleClass }) => {
+export default () => {
   return (
-    <ul className={`page-links ${styleClass ? styleClass : ""}`}>
+    <NavLinks>
       {tempLinks}
-    </ul>
+    </NavLinks>
+    
   )
 }
+
