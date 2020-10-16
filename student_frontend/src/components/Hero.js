@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="section-center hero-center">
         <article className="hero-info">
           <div>
-            <h1>Hej, jag är Jonas</h1>
+            <h2>Hej, jag är Jonas</h2>
             <div className="underline"></div>
             <h4>Just nu läser jag Systemutveckling vid TUC,<br></br>Linköping</h4>
             - 🔭 Just nu jobbar jag på min Portfolio sida
@@ -77,7 +77,7 @@ const Hero = () => {
             <br />
             - ⚡ Fun fact: I used to fly planes
             <br />
-            - 📫 How to reach me: use the link below :)
+            - 📫 Använd länken nedan för att kontakta mig
             <br />
             <Link to="/contact" className="btn">
               kontakta mig
